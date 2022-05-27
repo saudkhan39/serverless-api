@@ -1,0 +1,8 @@
+name = "serverless-api"
+type = "javascript"
+
+account_id = "b7df2e3a079bf0a92a3af54aa0524868"
+workers_dev = true
+route = "https://wispy-pond-cae8.saud2016.workers.dev/"
+zone_id = ""
+compatibility_date = "2022-05-25"

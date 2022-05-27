@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Mustafa zeb <tauheedzeb381@gmail.com.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/kv-asset-handler": "^0.2.0",
+    "prettier": "^1.18.2",
+    "prisma": "^3.14.0"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "github:cloudflare/workers-types",
+    "@types/node": "^17.0.35",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
