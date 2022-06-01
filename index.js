@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 const corsHeaders = {
   'Access-Control-Allow-Headers': '*',
   'Access-Control-Allow-Method': 'POST',
-  'Access-Control-Allow-Origin': '*'
+  'Access-Control-Allow-Origin': 'localhost:4200'
 }
 
 // const getuserid = async request => {
