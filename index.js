@@ -4,7 +4,7 @@ addEventListener('fetch', event => {
 
 const corsHeaders = {
   'Access-Control-Allow-Headers': '*',
-  'Access-Control-Allow-Method': 'POST',
+  'Access-Control-Allow-Method': 'GET',
   'Access-Control-Allow-Origin': 'localhost:4200'
 }
 
